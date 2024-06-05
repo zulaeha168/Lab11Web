@@ -1,0 +1,13 @@
+CRITICAL - 2024-05-14 01:45:39 --> ParseError: syntax error, unexpected identifier "halaman", expecting "]"
+in APPPATH\Controllers\Artikel.php on line 37.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\lab7_php_ci\\app\\Controllers\\Artikel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Artikel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Artikel')
+ 4 SYSTEMPATH\CodeIgniter.php(901): class_exists('\\App\\Controllers\\Artikel', true)
+ 5 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab7_php_ci\\public\\index.php')
+CRITICAL - 2024-05-14 01:50:08 --> ErrorException: Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

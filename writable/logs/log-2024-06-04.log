@@ -1,0 +1,31 @@
+CRITICAL - 2024-06-04 13:56:54 --> Error: Call to a member function move() on null
+in APPPATH\Controllers\Artikel.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Artikel->add()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab7_php_ci\\public\\index.php')
+CRITICAL - 2024-06-04 13:59:01 --> Error: Call to a member function move() on null
+in APPPATH\Controllers\Artikel.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Artikel->add()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab7_php_ci\\public\\index.php')
+CRITICAL - 2024-06-04 14:57:14 --> Error: Call to a member function move() on null
+in APPPATH\Controllers\Artikel.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Artikel->add()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab7_php_ci\\public\\index.php')
+CRITICAL - 2024-06-04 15:03:11 --> Error: Call to a member function move() on null
+in APPPATH\Controllers\Artikel.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(943): App\Controllers\Artikel->add()
+ 2 SYSTEMPATH\CodeIgniter.php(503): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\lab7_php_ci\\public\\index.php')
+CRITICAL - 2024-06-04 15:25:01 --> ErrorException: Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\Autoloader\Autoloader.php on line 310.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
